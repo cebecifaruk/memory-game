@@ -1,0 +1,37 @@
+QPushButton:pressed {
+    background-color: gray;
+    border-style: inset;
+}
+QPushButton {
+    background-color: black;
+    border-style: outset;
+    border-width: 6%;
+    border-radius: 6%;
+    border-color: gray;
+    font: bold 10%;
+    color: white;
+    padding: 0px;
+    min-width: 64px;
+    min-height: 64px;
+}
+
+QLineEdit {
+    border-style: outset;
+    border-width: 5%;
+    border-radius: 5%;
+    font: bold 10%;
+    padding: 6px;
+    min-width: 50%;
+}
+
+QLCDNumber {
+    background-color: red;
+    border-color: red;
+    border-style: outset;
+    border-width: 5%;
+    border-radius: 5%;
+    font: bold 5%;
+    padding: 6px;
+    max-width: 80%;
+    max-height: 50%;
+}
